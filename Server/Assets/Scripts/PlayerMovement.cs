@@ -489,7 +489,7 @@ public class PlayerMovement : MonoBehaviour
                 float condition = 0; //To Handle right and left situations...
 
                 //after that calculate the vector troughout which angle is shorter:
-                WallForward = angle < 20 && angle > -20 ? Vector3.zero : angle < -160 && angle > 160 ? Vector3.zero :
+                WallForward = angle < 20 && angle > -20 ? Vector3.zero : angle < -160 || angle > 160 ? Vector3.zero :
                     angle > condition ? Quaternion.AngleAxis(270, Vector3.up) * currWall :
                     angle < condition ? Quaternion.AngleAxis(90, Vector3.up) * currWall : Vector3.zero;
 
