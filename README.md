@@ -12,7 +12,7 @@ First Person Shooter with Online features such as Multiplayer and Servers. power
 * .NET - C#
 * Unity Engine
 
-**<pre>This game was built for independent learning about client - servers games. The game did not focus into visibility and took a lot of inspiration from the following games</pre>**
+**This game was built for independent learning about client - servers games. The game did not focus into visibility and took a lot of inspiration from the following games**
 
 ## Insperation Games:
 * Overwatch - Blizzard Entertainment
